@@ -4,30 +4,30 @@
     font-family: cursive;
 }
 
-li a {
-    --s: 0.01em; /* the thickness of the line*/
-    --c: #2c4bff; /* the color */
-
-    color: rgb(75, 75, 199);
-    padding-bottom: var(--s);
-    background: linear-gradient(90deg, var(--c) 50%, #000 0) 
-    calc(100% - var(--_p, 0%))/200% 100%, 
-    linear-gradient(var(--c) 0 0) 0% 100%/var(--_p, 0%) var(--s) no-repeat;
-    -webkit-background-clip: text, padding-box;
-    background-clip: text, padding-box;
-    transition: 0.5s;
+a {
+    text-decoration: none;
+    font-family: cursive;
+    color: royalblue;
+    
+    background: 
+    linear-gradient(
+        to right,
+        rgba(100, 200, 200, 1),
+        rgba(100, 200, 200, 1)
+    ),
+    linear-gradient(
+    to right,
+    rgba(255, 0, 0, 1),
+    rgba(255, 0, 180, 1),
+    rgba(0, 100, 200, 1)
+    );
+    background-size: 100% 3px, 0 3px;
+    background-position: 115% 115%, 0 110%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms, color 400ms;    
 }
-li a:hover {--_p:100%}
 
-body {
-    height: 100vh;
-    margin: 0;
-    /* display: grid; */
-    place-content: center;
-}
-
-li a{
-    font-family: system-ui, sans-serif;
-    font-size: 1rem;
-    cursor: pointer;
+a:hover {
+    background-size: 0 3px, 100% 3px;
+    color: wheat;
 }
