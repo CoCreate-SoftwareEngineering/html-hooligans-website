@@ -1,7 +1,11 @@
 .page {
     animation: fadeInAnimation ease 5s;
     animation-iteration-count: 1;
-    animation-fill-mode: forwards ;
+    animation-fill-mode: forwards ;    
+}
+body{
+    background: rgb(2,0,36);
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(108,9,121,1) 26%, rgba(4,17,103,1) 100%);
 }
 
 @keyframes fadeInAnimation {
