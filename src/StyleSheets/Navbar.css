@@ -4,11 +4,12 @@
     font-family: cursive;
 }
 
-a {
+button {
     text-decoration: none;
     font-family: cursive;
     color: royalblue;
-    
+    border:none;
+    font-size: 1rem;
     background: 
     linear-gradient(
         to right,
@@ -27,7 +28,9 @@ a {
     transition: background-size 400ms, color 400ms;    
 }
 
-a:hover {
+button:hover {
     background-size: 0 3px, 100% 3px;
+    box-shadow: 0 0 0 0 rgba(#ffffff, 0.5);
     color: wheat;
 }
+

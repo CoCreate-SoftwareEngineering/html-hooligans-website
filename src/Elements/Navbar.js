@@ -2,9 +2,11 @@ import React from 'react';
 import '../StyleSheets/Navbar.css';
 import { Link } from 'react-router-dom';
 
+
 function Navbar() {
     
-    return (        
+    return (    
+        <>
         <div>
         <nav>
             <h1 className="logo">
@@ -12,19 +14,20 @@ function Navbar() {
                 </h1>
             <ul>
                 <li>
-                    <Link to ="/">Home</Link>
+                    <Link to ="/"><button>Home</button></Link>
                 </li>
                 
                 <li>
-                    <Link to = "/about">About </Link>
+                    <Link to = "/about"><button>About</button></Link>
                 </li>
                 
                 <li>
-                    <Link to = "/designs">Designs</Link>
+                    <Link to = "/designs"><button>Designs</button></Link>
                 </li>
             </ul>
         </nav>                
       </div>    
+      </>    
     );
 }
 

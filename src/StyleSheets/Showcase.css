@@ -13,6 +13,19 @@ body{
     transform:prespective(1000px) translate(-50%,-50%);
     transform:skewY(15deg);
     transition:0.5s;
+    animation: fadeInAnimation ease 4.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards ;
+
+  }
+
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
   
   .center:hover{
