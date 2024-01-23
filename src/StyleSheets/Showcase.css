@@ -2,9 +2,13 @@ body{
     margin:0;
     padding:0;
     font-family:sans-serif;  
-    background: rgb(2,0,36);
-    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(90,4,99,1) 26%, rgba(5,74,89,1) 43%, rgba(2,9,55,1) 100%);
     overflow:hidden;
+
+    /* Changes background for all pages */
+    background: rgb(2,0,36);    
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(135,33,145,1) 26%, rgba(11,62,73,1) 43%, rgba(2,9,55,1) 100%);  
+
+    
   }
   
   .center{
@@ -43,7 +47,10 @@ body{
     padding:0;
     text-transform:uppercase;
     font-size:9em; /* Size of splash text */
-    color:#6f2e85;
+    color:#612a74;
+    -webkit-text-stroke-width: 3px;
+    font-family:Tahoma;
+    -webkit-text-stroke-color: black;
     transform-style:preserve-3d;
     transition:0.8s;
   }
@@ -54,8 +61,8 @@ body{
   
   
   .center h1 span:nth-child(2){
-    color:#5E17EB;
-    transform:translate(-50%,-50%) skewX(-60deg);
+    color:#612a74;
+    transform:translate(-50%,-50%) skewX(-65deg);
     left:-38px;
     clip-path: polygon(0 45%, 100% 45%, 100% 55%, 0 55%);
   }
@@ -70,5 +77,5 @@ body{
   .center:hover h1 span:nth-child(3){
     transform:translate(-50%,-50%) skewX(0deg);
     left:0;
-    color:#6f2e85;
+    color:#612a74;
   }
