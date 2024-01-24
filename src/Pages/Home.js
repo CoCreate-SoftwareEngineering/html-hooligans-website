@@ -3,6 +3,8 @@ import '../StyleSheets/Home.css';
 import Features from '../Elements/Features';
 import Vision from '../Elements/Vision';
 import Users from '../Elements/Users';
+import { Link } from 'react-router-dom';
+
 
 function Home() {
   return (
@@ -66,7 +68,7 @@ function Home() {
           <Features title = "Create" />
           <Features title = "Collaborate" />            
         </div>
-        <a href="src/Pages/Designs.js" class="card-link my-4 mx-auto p-2">Learn More</a>
+        <Link to ="/designs" className= "card-link my-4 mx-auto p-2">Learn more →</Link>
       </div>
 
       {/* Ideal userbase */}

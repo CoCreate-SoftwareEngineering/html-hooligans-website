@@ -10,7 +10,7 @@ function Users(props) {
                          <h5 class="card-header">For {props.title}</h5>
                          <div class="card-body">
                               <p class="card-text">{props.text}</p> 
-                              <Link to ="/designs" className= "btn btn-secondary">→</Link>                             
+                              <Link to ="/about" className= "btn btn-secondary">→</Link>                             
                          </div>
                     </div>
                     </div>
