@@ -12,13 +12,13 @@ function Home() {
       {/* Introduction block - who we are and company vision */}
       <div className="container mb-5 my-4" style={{ maxWidth: '70rem' }}>
         <div className="card border-light">
-          <div className="card-header bg-primary border-primary" style={{ textAlign: "center" }}>
+          <h5 className="card-header bg-primary border-primary text-light" style={{ textAlign: "center" }}>
             HTML Hooligans
-          </div>
+          </h5>
           <div className="card-body">
-            <blockquote className="blockquote mb-4 my-3">
+            <h6 className="blockquote text-dark mb-4 my-3">
               Where creativity meets collaboration!
-            </blockquote>
+            </h6>
             <p style={{ textAlign: "center" }}>We are a team of seven students united by a common passion for software engineering, dedicated to creating a revolutionary collaborative platform. </p>
             <p style={{ textAlign: "center" }}>Our shared vision is to redefine the way individuals and groups work together, enhancing seamless communication and productivity in the digital era.</p>
           </div>
@@ -42,21 +42,15 @@ function Home() {
       <div className="container">
         <h3>Our product</h3>
         <img src={process.env.PUBLIC_URL + '/Co_Create_Logo_blue.png'} className="img rounded float-start mx-5 my-5" alt="CoCreate Logo" style={{ maxWidth: '125px' }} />
-        <div className="card mb-3 my-4 mx-8" style={{ maxWidth: '100rem' }}>
-          <div className="row g-0">
-            <div className="col">
-              <div className="card-body">
-                <h5 className="card-title">CoCreate</h5>
-                <p className="card-text">CoCreate is an online collaboraive space where people can interact and work together to organize, annotate, share, and create ideas.
+        <div className="row my-5">
+               <h5 >CoCreate</h5>
+                <p>CoCreate is an online collaboraive space where people can interact and work together to organize, annotate, share, and create ideas.
                   We have created a platform with all the features that you would need to collaborate, all in the same app!
                   The app can be used by anyone, from students to professionals, to collaborate on projects, assignments, and more.
                   It has extensive audio and video call capabilities and integrates Microsoft Office tools to help a seamless collaboration experience.
                   The projects can also utilize the in-built whiteboard feature and document editor to help you create and share ideas.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+                </p>              
+      </div>
       </div>
 
       {/* Some features of CoCreate */}
