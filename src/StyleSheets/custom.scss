@@ -1,0 +1,13 @@
+//setting custom theme for bootstrap elements to match the theme of the company
+
+$primary: #7CC0CB;
+$secondary: #E2856E;
+$dark: #2C4251;
+$light: #EFE7E7;
+$info: #585353;
+$success: #2ace7f;
+$warning: #fbef6e;
+$danger: #c62424;
+
+
+@import "~bootstrap/scss/bootstrap.scss"

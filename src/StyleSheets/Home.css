@@ -33,9 +33,7 @@ body {
   /* background-image: url('./Images/Background.jpg');   */
   background-size: cover;
   width: 100vw;
-  height: 100vh;
-
-    
+  height: 100vh;    
 }
 
 .showcase {
@@ -58,5 +56,16 @@ body {
 .App-link {
   color: #61dafb;
 }
+
+p{
+  color: black;
+}
+
+.blockquote{
+  color: black;
+  text-align: center;
+  font-weight: bolder;
+}
+
 
 

@@ -1,12 +1,10 @@
 .logo {
     color: rgb(75, 75, 199);
     font-size: 24px;    
-    font-family: cursive;
 }
 
 button {
     text-decoration: none;
-    font-family: cursive;
     color: royalblue;
     border:none;
     font-size: 1rem;
