@@ -5,13 +5,7 @@ h1 {
 
 .page {
     height: auto;
-    min-height: 90vh;
-    overflow: hidden;
-    background-color: rgb(226, 133, 110);
-}
-
-body {
-    
+    min-height: 90vh;     
 }
 
 .custom-outline-primary {
@@ -39,8 +33,7 @@ body {
     position: absolute;
     top: 84.5%;
     width: 100%;
-    display: flex;
-    
+    display: flex;    
     text-align: center;
   }
   

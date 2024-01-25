@@ -1,0 +1,6 @@
+.wrapper {
+  min-height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  background-color: rgb(226, 133, 110); /* Replace with your desired color */
+  
+}

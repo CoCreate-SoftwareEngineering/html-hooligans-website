@@ -4,18 +4,22 @@ import About from '../Pages/About';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Designs from '../Pages/Designs';
 import Landing from '../Pages/Landing'
-import Navbar from './Navbar';
-import Footer from './Footer';
+import Nav from './Nav';
 
 import {AnimatePresence} from 'framer-motion';
-import { Nav } from 'react-bootstrap';
 
 function AnimatedRoutes() {
     const location = useLocation();
     const disabledPath ='/test';
+    if (location.pathname === disabledPath) {
+      document.body.style.overflow = 'hidden';
+  } else {
+      document.body.style.overflow = '';
+  }
     return (
         <AnimatePresence>
-        {location.pathname !== disabledPath && <Navbar />}                        
+          
+        {location.pathname !== disabledPath && <Nav />}                        
         <Routes location = {location} key = {location.pathname}>
         <Route path="/" element={<Home />} />       
         <Route path="/about" element={<About />} /> 
