@@ -24,6 +24,10 @@ function Navbar() {
                 <li>
                     <Link to = "/designs"><button>Designs</button></Link>
                 </li>
+
+                <li>
+                    <Link to = "/test"><button>Landing</button></Link>
+                </li>
             </ul>
         </nav>                
       </div>    

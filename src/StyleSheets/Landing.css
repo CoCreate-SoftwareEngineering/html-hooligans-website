@@ -1,0 +1,47 @@
+h1 {
+    position: top;
+    color: black;
+}
+
+.page {
+    height: auto;
+    min-height: 90vh;
+    overflow: hidden;
+    background-color: rgb(226, 133, 110);
+}
+
+body {
+    
+}
+
+.custom-outline-primary {
+    color:rgb(124, 192, 203); /* Text color */
+    border-color:rgb(124, 192, 203); /* Border color */
+    margin: 10px;
+    height: 50%;
+    margin-top: 25px;
+    margin-left: 25px;
+    
+  }
+  
+  .custom-outline-primary:hover {
+    color: rgb(3, 3, 3); /* Text color on hover */
+    background-color: rgb(124, 192, 203); /* Background color on hover */
+    border-color: rgb(124, 192, 203); /* Border color on hover */
+  }
+  
+  .custom-outline-primary:focus, .custom-outline-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(rgb(124, 192, 203), 0.2); /* Focus shadow with your color, use RGB format */
+  }
+
+  .bottomBar {
+    
+    position: absolute;
+    top: 84.5%;
+    width: 100%;
+    display: flex;
+    
+    text-align: center;
+  }
+  
+  

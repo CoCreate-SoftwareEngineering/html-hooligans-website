@@ -12,8 +12,7 @@ function Showcase() {
                 <span>CoCreate</span>
 
             </h1>               
-            </div>
-            <Footer />
+            </div>            
           </>  
     );
 
