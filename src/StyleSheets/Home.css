@@ -28,8 +28,7 @@ nav ul li {
   color: #61dafb;
 }
 
-body {
-  background-color: #1f0229;
+body {  
   /* background-image: url('./Images/Background.jpg');   */
   background-size: cover;
   width: 100vw;
