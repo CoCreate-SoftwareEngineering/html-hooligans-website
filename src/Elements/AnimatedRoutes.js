@@ -11,7 +11,7 @@ import {AnimatePresence} from 'framer-motion';
 
 function AnimatedRoutes() {
     const location = useLocation();
-    const disabledPath ='/landing';
+    const disabledPath ='/';
 
     // disable ability to scroll on LandingPage
     if (location.pathname === disabledPath) {
@@ -26,11 +26,11 @@ function AnimatedRoutes() {
         {location.pathname !== disabledPath && <Nav />}
 
         <Routes location = {location} key = {location.pathname}>
-        <Route path="/" element={<Home />} />       
+        <Route path="/" element={<Landing />} />       
         <Route path="/about" element={<About />} /> 
         <Route path="/designs" element={<Designs />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/landing" element={<Landing />} />
+        <Route path="/home" element={<Home />} />
         {/* Define other routes as needed */}
       </Routes>
       </AnimatePresence>

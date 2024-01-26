@@ -20,7 +20,7 @@ function Landing() {
 
 {/* Organise Bottom Display of Landing Page */}
     <div className='bottomBar'>    
-        <Link to="/"><button type="button" class="btn btn-outline-primary custom-outline-primary">Explore</button></Link>
+        <Link to="/home"><button type="button" class="btn btn-outline-primary custom-outline-primary">Explore</button></Link>
         <p className="center-text">Where creativity meets collaboration™ <Link to ="/designs">Learn More</Link></p>
         <Link to="/contact"><button type="button" class="btn btn-outline-primary custom-outline-primary">Contact Us</button></Link>        
     </div>  
