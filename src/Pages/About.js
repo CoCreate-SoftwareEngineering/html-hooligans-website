@@ -5,7 +5,7 @@ import {motion as m} from 'framer-motion'
 function About() {
     return (
         <m.div className = "page"
-        intial={{width: "100%", opacity: 1}}
+        intial={{opacity: 1, transition: {duration: 2}}}
         animate={{width: "100%"}}
         exit={{x: window.innerWidth, opacity: 0}}
         >

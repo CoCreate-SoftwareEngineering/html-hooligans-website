@@ -3,12 +3,18 @@ import '../StyleSheets/Home.css';
 import Features from '../Elements/Features';
 import Vision from '../Elements/Vision';
 import Users from '../Elements/Users';
+import {motion as m } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
 
 function Home() {
   return (
     <>
+    <m.div className ="page"
+      intial={{opacity: 1, transition: {duration: 1}}}
+      animate={{width: "100%"}}
+      exit={{opacity: 0}}    
+      >            
       {/* Introduction block - who we are and company vision */}
       <div className="container mb-5 my-4" style={{ maxWidth: '70rem' }}>
         <div className="card border-light">
@@ -80,7 +86,7 @@ function Home() {
           <Users title="advertisers" text="Create posters, banners, and more with CoCreate, and share them on social media." />
         </div>
         </div>
-
+    </m.div>
     </>
   );
 }

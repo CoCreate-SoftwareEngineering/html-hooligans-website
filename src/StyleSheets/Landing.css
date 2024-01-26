@@ -15,6 +15,7 @@ h1 {
     height: 50%;
     margin-top: 25px;
     margin-left: 25px;
+    margin-right: 25px;
     
   }
   
@@ -28,13 +29,18 @@ h1 {
     box-shadow: 0 0 0 0.2rem rgba(rgb(124, 192, 203), 0.2); /* Focus shadow with your color, use RGB format */
   }
 
-  .bottomBar {
-    
+  .bottomBar {    
     position: absolute;
     top: 84.5%;
     width: 100%;
-    display: flex;    
-    text-align: center;
+    display: flex;        
   }
+
+  .center-text {
+    margin-top:35px;
+    text-align: center;
+    flex-grow: 1; /* Makes the paragraph flex item grow to fill available space */
+  }
+  
   
   
