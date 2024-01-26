@@ -16,7 +16,7 @@ function Nav() {
           <Link to="/"><Navbar.Brand><button>Home</button></Navbar.Brand></Link>
           <Link to="/about"><Navbar.Brand><button>About</button></Navbar.Brand></Link>
           <Link to="/designs"><Navbar.Brand><button>Designs</button></Navbar.Brand></Link>
-          <Link to="/test"><Navbar.Brand><button>Landing</button></Navbar.Brand></Link>
+          <Link to="/contact"><Navbar.Brand><button>Contact Us</button></Navbar.Brand></Link>
         
       </Container>
     </Navbar>

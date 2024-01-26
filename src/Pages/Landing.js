@@ -3,7 +3,7 @@ import '../StyleSheets/Landing.css';
 import {motion as m } from 'framer-motion';
 import Wrapper from '../Elements/Wrapper';
 import { Link } from 'react-router-dom';
-import Card from 'react-bootstrap/Card';
+
 
 function Landing() {    
     return (     
@@ -21,9 +21,9 @@ function Landing() {
               
       
     <div className='bottomBar'>    
-        <button type="button" class="btn btn-outline-primary custom-outline-primary">Primary</button>                
-        <p className="center-text">Innovating on Perfection™ <Link to ="/designs">Learn More</Link></p>
-        <button type="button" class="btn btn-outline-primary custom-outline-primary">Primary</button>        
+        <Link to="/"><button type="button" class="btn btn-outline-primary custom-outline-primary">Explore</button></Link>
+        <p className="center-text">Where creativity meets collaboration™ <Link to ="/designs">Learn More</Link></p>
+        <Link to="/contact"><button type="button" class="btn btn-outline-primary custom-outline-primary">Contact Us</button></Link>        
     </div>  
       
     </Wrapper>

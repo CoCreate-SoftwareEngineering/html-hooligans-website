@@ -3,14 +3,15 @@ import Home from '../Pages/Home'; // Import the Home component
 import About from '../Pages/About';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Designs from '../Pages/Designs';
-import Landing from '../Pages/Landing'
+import Contact from '../Pages/Contact';
+import Landing from '../Pages/Landing';
 import Nav from './Nav';
 
 import {AnimatePresence} from 'framer-motion';
 
 function AnimatedRoutes() {
     const location = useLocation();
-    const disabledPath ='/test';
+    const disabledPath ='/landing';
     if (location.pathname === disabledPath) {
       document.body.style.overflow = 'hidden';
   } else {
@@ -24,7 +25,8 @@ function AnimatedRoutes() {
         <Route path="/" element={<Home />} />       
         <Route path="/about" element={<About />} /> 
         <Route path="/designs" element={<Designs />} />
-        <Route path="/test" element={<Landing />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/landing" element={<Landing />} />
         {/* Define other routes as needed */}
       </Routes>
       </AnimatePresence>
