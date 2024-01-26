@@ -3,6 +3,9 @@ import React from 'react';
 function EmployeeCard(){
     return (
         <>       
+        {/* Repeatable Card
+          * ToDo: make text changeable        
+        */}
         <div class = "card w-75" style={{margin:'12px', maxWidth: '600px'}}>
             <div class = "card-body">
                 <h5 class="card-title">Name</h5>

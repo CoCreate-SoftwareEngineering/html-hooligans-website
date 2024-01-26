@@ -26,6 +26,7 @@ body{
   }
 }
 
+/* Move text on hover */
 .center:hover{
   transform:prespective(1000px) translate(-50%,-50%);
   transform:skewY(0deg);
@@ -47,12 +48,13 @@ body{
   transform-style:preserve-3d;
   transition:0.8s;
 }
+
 .center h1 span:nth-child(1){
   clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
 }
 
 
-
+/* Middle of Splash Text */
 .center h1 span:nth-child(2){
   color:rgb(117, 142, 179);
   transform:translate(-50%,-50%) skewX(-60deg);
@@ -66,6 +68,7 @@ body{
   clip-path: polygon(0 55%, 100% 55%, 100% 100%, 0 100%);
 }
 
+/* Transition Splash Text Colour on Hover */
 .center:hover h1 span:nth-child(2), 
 .center:hover h1 span:nth-child(3){
   transform:translate(-50%,-50%) skewX(0deg);

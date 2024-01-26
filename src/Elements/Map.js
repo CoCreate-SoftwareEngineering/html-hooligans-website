@@ -11,7 +11,7 @@ const MapContainer = (props) => {
         google={props.google}
         zoom={15}
         style = {mapStyles}
-        initialCenter={{ lat: 55.911973244335115, lng: -3.319442689166232}}
+        initialCenter={{ lat: 55.911973244335115, lng: -3.319442689166232}}  // GRID buidling pos
         >
             <Marker position ={{ lat: 55.911973244335115, lng: -3.319442689166232}} />            
         </Map>
