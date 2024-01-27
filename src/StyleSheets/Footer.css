@@ -1,9 +1,7 @@
-footer {
-    /* background-color: #1f0229; */
-    color: aliceblue;
-    background-color: transparent;
-    text-align: center;
-    padding: 1rem 0;
-    margin-top: auto;
-  }
-  
+.custom:hover {
+    color: red;
+}
+
+.custom:active {
+    transform: none !important;
+}

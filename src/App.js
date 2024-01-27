@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import './App.css';
 import Footer from './Elements/Footer';
 import AnimatedRoutes from './Elements/AnimatedRoutes';
+import Wrapper from './Elements/Wrapper';
 
 function App() {  
   return (
