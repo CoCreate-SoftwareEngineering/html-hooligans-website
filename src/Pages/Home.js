@@ -3,12 +3,18 @@ import '../StyleSheets/Home.css';
 import Features from '../Elements/Features';
 import Vision from '../Elements/Vision';
 import Users from '../Elements/Users';
+import {motion as m } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
 
 function Home() {
   return (
     <>
+    <m.div className ="page"
+      intial={{opacity: 1, transition: {duration: 1}}}
+      animate={{width: "100%"}}
+      exit={{opacity: 0}}    
+      >            
       {/* Introduction block - who we are and company vision */}
       <div className="container mb-5 my-4" style={{ maxWidth: '70rem' }}>
         <div className="card border-light">
@@ -16,11 +22,11 @@ function Home() {
             HTML Hooligans
           </h5>
           <div className="card-body">
-            <h6 className="blockquote text-dark mb-4 my-3">
+            <h6 className="blockquote text-dark my-3" style={{textAlign:"center"}}>
               Where creativity meets collaboration!
             </h6>
-            <p style={{ textAlign: "center" }}>We are a team of seven students united by a common passion for software engineering, dedicated to creating a revolutionary collaborative platform. </p>
-            <p style={{ textAlign: "center" }}>Our shared vision is to redefine the way individuals and groups work together, enhancing seamless communication and productivity in the digital era.</p>
+            <p className="text-dark" style={{ textAlign: "center" }}>We are a team of seven students united by a common passion for software engineering, dedicated to creating a revolutionary collaborative platform. </p>
+            <p className="text-dark" style={{ textAlign: "center" }}>Our shared vision is to redefine the way individuals and groups work together, enhancing seamless communication and productivity in the digital era.</p>
           </div>
         </div>
       </div>
@@ -44,7 +50,7 @@ function Home() {
         <img src={process.env.PUBLIC_URL + '/Co_Create_Logo_blue.png'} className="img rounded float-start mx-5 my-5" alt="CoCreate Logo" style={{ maxWidth: '125px' }} />
         <div className="row my-5">
                <h5 >CoCreate</h5>
-                <p>CoCreate is an online collaboraive space where people can interact and work together to organize, annotate, share, and create ideas.
+                <p className="text-info">CoCreate is an online collaboraive space where people can interact and work together to organize, annotate, share, and create ideas.
                   We have created a platform with all the features that you would need to collaborate, all in the same app!
                   The app can be used by anyone, from students to professionals, to collaborate on projects, assignments, and more.
                   It has extensive audio and video call capabilities and integrates Microsoft Office tools to help a seamless collaboration experience.
@@ -80,7 +86,7 @@ function Home() {
           <Users title="advertisers" text="Create posters, banners, and more with CoCreate, and share them on social media." />
         </div>
         </div>
-
+    </m.div>
     </>
   );
 }

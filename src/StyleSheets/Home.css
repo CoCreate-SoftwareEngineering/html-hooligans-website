@@ -28,8 +28,7 @@ nav ul li {
   color: #61dafb;
 }
 
-body {
-  /* background-color: #1f0229; */
+body {  
   /* background-image: url('./Images/Background.jpg');   */
   background-size: cover;
   width: 100vw;
@@ -56,16 +55,3 @@ body {
 .App-link {
   color: #61dafb;
 }
-
-p{
-  color: black;
-}
-
-.blockquote{
-  color: black;
-  text-align: center;
-  font-weight: bolder;
-}
-
-
-
