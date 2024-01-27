@@ -3,10 +3,10 @@ import {motion as m} from 'framer-motion'
 
 function Home() {
   return (
-    <m.div className = "page"
-    intial={{opacity: 1, transition: {duration: 1}}}
+    <m.div className ="page"
+    intial={{opacity: 1}}
     animate={{width: "100%"}}
-    exit={{x: window.innerWidth, opacity: 0}}
+    exit={{opacity: 0, transition: { duration: 2 }}}    
     >
       <h1>Designs</h1>
       <p>Insert Figma Designs for WebApp?</p>
