@@ -5,15 +5,15 @@ function Users(props) {
           return (
                     <>
                     {/*Reusable card component for Home.js for users section*/}
-                    <div class="col-sm-6 mb-3 mb-sm-0">
-                    <div class="card mx-auto p-2 my-3" style={{maxWidth:"30rem"}}>
-                         <h5 class="card-header">For {props.title}</h5>
-                         <div class="card-body">
-                              <p class="card-text text-dark">{props.text}</p> 
-                              <Link to ="/about" className= "btn btn-secondary">→</Link>                             
+                     
+                    <div className="col-sm-6 my-4 mx-auto p-2" style={{ maxWidth: "13rem" }}>
+                              <div className="card bg-light border-light" >
+                              <h5 class="card-header bg-light">For {props.title}</h5>
+                                   <div className="card-body">
+                                   <Link to ="/about" className= "btn btn-secondary">→</Link> 
+                                   </div>
+                              </div>
                          </div>
-                    </div>
-                    </div>
                     </>
           );
 }

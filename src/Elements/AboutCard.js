@@ -5,11 +5,11 @@ function AboutCard(props) {
      return (
           <>
                {/*Reusable card component for Home.js for users section*/}
-               <div class="col-sm-6 mb-3 mb-sm-0">
-                    <div class="card mx-auto p-2 my-3" style={{ maxWidth: "30rem" }}>
-                         <h5 class="card-header">For {props.title}</h5>
-                         <div class="card-body">
-                              <p class="card-text text-dark">{props.text}</p>
+               <div className="col-sm-6 mb-3 mb-sm-0">
+                    <div className="card mx-auto p-2 my-3 bg-primary border-primary" style={{ maxWidth: "30rem", minHeight:"250px"}}>
+                         <h5 className="card-header text-success">For {props.title}</h5>
+                         <div className="card-body">
+                              <p className="card-text text-dark mt-3">{props.text}</p>
                          </div>
                     </div>
                </div>
