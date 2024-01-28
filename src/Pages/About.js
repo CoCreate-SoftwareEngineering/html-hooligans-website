@@ -16,11 +16,10 @@ function About() {
                <div className="container my-2 mx-auto d-block">
                     <img src={process.env.PUBLIC_URL + '/Pictures/figma1.png'} className="float-end mx-2" alt="..." style={{ maxWidth: "350px"}} />
                     <img src={process.env.PUBLIC_URL + '/Pictures/figma2.png'} className="float-end mx-2" alt="..." style={{ maxWidth: "350px" }} />
-                    <p className="text-info">---- Placeholder text---- CoCreate is an online collaboraive space where people can interact and work together to organize, annotate, share, and create ideas.
-                         We have created a platform with all the features that you would need to collaborate, all in the same app!
-                         The app can be used by anyone, from students to professionals, to collaborate on projects, assignments, and more.
-                         It has extensive audio and video call capabilities and integrates Microsoft Office tools to help a seamless collaboration experience.
-                         The projects can also utilize the in-built whiteboard feature and document editor to help you create and share ideas.
+                    <p className="text-info">CoCreate is a versatile collaborative app that serves as a centralized platform for communication, teamwork, project creation and management. 
+                    Users across various fields, including students, educators, small businesses, freelancers, and community groups, can benefit from its intuitive features. 
+                    From real-time collaboration on projects to organizing schedules, sharing resources, and facilitating creativity with the range of tools, this app enhances productivity and workflow among users. 
+                    Whether it's for academic pursuits, professional endeavors, or community initiatives, this app empowers users to work smarter, faster, and more effectively.
                     </p>
                </div>
                <div className="container">
