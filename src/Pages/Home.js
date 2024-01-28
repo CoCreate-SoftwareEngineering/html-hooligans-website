@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../StyleSheets/Home.css';
 import Features from '../Elements/Features';
 import Vision from '../Elements/Vision';

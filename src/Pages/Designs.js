@@ -1,6 +1,5 @@
 import React from 'react';
 import DesFeatures from '../Elements/DesFeatures';
-import { Link } from 'react-router-dom';
 import {motion as m} from 'framer-motion';
 
 function Designs() {
