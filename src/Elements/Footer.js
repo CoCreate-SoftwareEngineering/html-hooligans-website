@@ -2,12 +2,10 @@ import React from 'react';
 import '../StyleSheets/Footer.css';
 import {
     MDBFooter,
-    MDBContainer,
-    MDBIcon,
+    MDBContainer,    
     MDBInput,
     MDBCol,
-    MDBRow,
-    MDBBtn
+    MDBRow,    
   } from 'mdb-react-ui-kit';
   import { Link } from 'react-router-dom';  
 
