@@ -3,6 +3,7 @@ import '../StyleSheets/Navbar.css';
 import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
+import Image from 'react-bootstrap/Image';
 
 function Nav() {
     

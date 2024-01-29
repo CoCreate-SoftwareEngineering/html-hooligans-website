@@ -1,6 +1,8 @@
 import React from 'react';
 import '../StyleSheets/Modal.css';
 
+
+// creates contact form with email for contact buttons
 const Modal = ({ show, onClose, contactEmail }) => {
     if (!show) {
       return null;
@@ -8,7 +10,7 @@ const Modal = ({ show, onClose, contactEmail }) => {
   
     return (
       <div className="modal" onClick={onClose}>
-        <div className="modal-content" onClick={e => e.stopPropagation()}>
+        <div className="modal-content" onClick={e => e.stopPropagation()} style={{width: '80%'}}>
           <div className="modal-header">
             <h4 className="modal-title">Contact Form</h4>
           </div>

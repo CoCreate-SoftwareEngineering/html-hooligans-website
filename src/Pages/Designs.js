@@ -2,6 +2,7 @@ import React from 'react';
 import DesFeatures from '../Elements/DesFeatures';
 import {motion as m} from 'framer-motion';
 
+
 function Designs() {
      return (
            <m.div className = "page"
