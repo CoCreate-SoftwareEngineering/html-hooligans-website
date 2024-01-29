@@ -12,7 +12,7 @@ function Nav() {
     <Navbar sticky="top" expand="lg" className="blue">
       <Container>
       <span className="logo">
-        <img src={process.env.PUBLIC_URL + '/Pictures/logo.png'} style={{maxWidth:"250px"}} />
+        <Link to ="/"><img src={process.env.PUBLIC_URL + '/Pictures/logo.png'} style={{maxWidth:"250px"}} /></Link>
         </span>       
           <Link to="/home"><Navbar.Brand><button>Home</button></Navbar.Brand></Link>
           <Link to="/about"><Navbar.Brand><button>About</button></Navbar.Brand></Link>
