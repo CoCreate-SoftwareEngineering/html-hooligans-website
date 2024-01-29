@@ -9,6 +9,7 @@ import {
     MDBRow,
     MDBBtn
   } from 'mdb-react-ui-kit';
+  import { Link } from 'react-router-dom';  
 
 function Footer() {
     return (
@@ -40,11 +41,13 @@ function Footer() {
                 </section>
 
                 <section className='mb-4'>
-                    <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum repellat quaerat
-                    voluptatibus placeat nam, commodi optio pariatur est quia magnam eum harum corrupti dicta, aliquam
-                    sequi voluptate quas.
-                    </p>
+                   <p style={{color: 'rgba(226, 133, 110, 0.6)'}}>Unleash Your Creativity with Co-Create, where innovators and creators converge. Explore our interactive web app designed to 
+                   bring your ideas to life. Stay connected join our newsletter for exclusive insights. 
+                   Together, let's shape the future of creativity.</p> 
+                </section>
+
+                <section className='mb-4'>
+                    <Link to='/contact'>Contact Us</Link> 
                 </section>
 
                 </MDBContainer>
