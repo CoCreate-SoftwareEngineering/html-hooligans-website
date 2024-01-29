@@ -11,12 +11,12 @@ function Nav() {
         <>
     <Navbar sticky="top" expand="lg" className="blue">
       <Container>
-        <h1 className="logo">          
-        <Link to ="/"><Image src="/Co_Create_Logo_blue.png" thumbnail style={{height: '45px'}} /></Link>
-        </h1>                        
+      <span className="logo">
+        <img src={process.env.PUBLIC_URL + '/Pictures/logo.png'} style={{maxWidth:"250px"}} />
+        </span>       
           <Link to="/home"><Navbar.Brand><button>Home</button></Navbar.Brand></Link>
           <Link to="/about"><Navbar.Brand><button>About</button></Navbar.Brand></Link>
-          <Link to="/designs"><Navbar.Brand><button>Designs</button></Navbar.Brand></Link>
+          <Link to="/designs"><Navbar.Brand><button>Products</button></Navbar.Brand></Link>
           <Link to="/contact"><Navbar.Brand><button>Contact Us</button></Navbar.Brand></Link>
         
       </Container>
