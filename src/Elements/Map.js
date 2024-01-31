@@ -22,5 +22,5 @@ const MapContainer = (props) => {
 };
 
 export default GoogleApiWrapper({
-    apiKey: 'AIzaSyCkQ7JE59-lMigZL9i-jKn9j7jCQTyqZIM' // restricted to map use only
+    apiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY // restricted to map use only
 })(MapContainer);
