@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/htmlhooligans-website/static/css/main.20b824d0.css",
+    "main.js": "/htmlhooligans-website/static/js/main.da4b6648.js",
+    "static/js/787.04fc22a7.chunk.js": "/htmlhooligans-website/static/js/787.04fc22a7.chunk.js",
+    "index.html": "/htmlhooligans-website/index.html",
+    "main.20b824d0.css.map": "/htmlhooligans-website/static/css/main.20b824d0.css.map",
+    "main.da4b6648.js.map": "/htmlhooligans-website/static/js/main.da4b6648.js.map",
+    "787.04fc22a7.chunk.js.map": "/htmlhooligans-website/static/js/787.04fc22a7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20b824d0.css",
+    "static/js/main.da4b6648.js"
+  ]
+}
